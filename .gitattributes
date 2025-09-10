@@ -1,2 +1,12 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+update-binary text eol=lf
+updater-script text eol=lf
+
+apps text eol=lf
+wcsm text eol=lf
+
+*.sh text eol=lf
+*.prop text eol=lf
+*.properties text eol=lf
